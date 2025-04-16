@@ -156,7 +156,7 @@ namespace LifeTests
             Console.SetOut(stringWriter);
             FigureAnalyzer.ClassifyFigures(dict, board.SelectFigures());
             var output = stringWriter.ToString();
-            Assert.Equal("blinker: size 3\r\nblinker: size 3\r\nblinker: size 3\r\nblinker: size 3\r\n", output);
+            Assert.Equal("blinker: size 3\nblinker: size 3\nblinker: size 3\nblinker: size 3\n", output);
         }
     }
 }
